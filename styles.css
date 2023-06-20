@@ -1,0 +1,82 @@
+body{
+  background-color: rgb(1, 1, 67);
+  text-align: center;
+}
+h1{
+  margin: auto;
+  color: yellow;
+  font-family:'Press Start 2P';
+  margin-bottom: 2%;
+  margin-top: 4%;
+  font-size: 40px;
+}
+button{
+  display: inline-block;
+  height: 13vw;
+  width: 13vw;
+  border: 10px solid black;
+  border-radius: 25%;
+  margin: 8%;
+}
+button:hover{
+  box-shadow: 5px 5px 5px rgb(73, 56, 56);
+  height: 13.3vw;
+  width: 13.3vw;
+  transition: height 0.3s ,width 0.3s;
+}
+button:active{
+  box-shadow: 2px 2px 5px white;
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: yellow;
+}
+.blue{
+  background-color: blue;
+}
+.container{
+  display: grid;
+  margin: auto;
+  width: 30%;
+  margin-top: 5%;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.wrong{
+  background-color: red;
+}
+@media (max-width:700px){
+  h1{
+    font-size: 17px;
+    margin-top: 100px;
+  }
+  .container{
+    width: 80%;
+  }
+  button{
+    display: inline-block;
+    height: 35vw;
+    width: 35vw;
+    border: 10px solid black;
+    border-radius: 25%;
+    margin: 8%;
+  }
+  button:hover{
+    height: 36vw;
+    width: 36vw;
+  }
+}
+footer{
+  position: absolute;
+  bottom: 10px;
+  color: rgb(42, 72, 99);
+  font-family: sans-serif;
+  margin: auto;
+  width: 100%;
+  left: 0px;
+}
